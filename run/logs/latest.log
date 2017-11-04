@@ -1,14 +1,57 @@
-[13:59:58] [main/INFO]: Setting user: Player498
-[14:00:04] [main/INFO]: LWJGL Version: 2.9.4
-[14:00:10] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[14:00:15] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[14:00:15] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[14:00:15] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[14:00:15] [Thread-5/INFO]: OpenAL initialized.
-[14:00:15] [Sound Library Loader/INFO]: Sound engine started
-[14:00:23] [main/INFO]: Created: 512x512 textures-atlas
-[14:00:25] [main/INFO]: Narrator library for x64 successfully loaded
-[14:00:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[14:00:40] [main/INFO]: Stopping!
-[14:00:40] [main/INFO]: SoundSystem shutting down...
-[14:00:40] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:54:09] [main/INFO]: Setting user: Player437
+[15:54:14] [main/WARN]: Skipping bad option: lastServer:
+[15:54:14] [main/INFO]: LWJGL Version: 2.9.4
+[15:54:19] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:DaIHerbs
+[15:54:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:54:25] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[15:54:25] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:25] [Thread-5/INFO]: OpenAL initialized.
+[15:54:25] [Sound Library Loader/INFO]: Sound engine started
+[15:54:32] [main/INFO]: Created: 512x512 textures-atlas
+[15:54:35] [main/WARN]: Skipping bad option: lastServer:
+[15:54:35] [main/INFO]: Narrator library for x64 successfully loaded
+[15:54:37] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[15:54:38] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[15:54:38] [Server thread/INFO]: Generating keypair
+[15:54:40] [Server thread/INFO]: Loaded 488 advancements
+[15:54:40] [Server thread/INFO]: Preparing start region for level 0
+[15:54:41] [Server thread/INFO]: Preparing spawn area: 15%
+[15:54:42] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:54:44] [Server thread/INFO]: Player437[local:E:8c45c775] logged in with entity id 316 at (243.4433680388676, 71.0, 263.34775252922753)
+[15:54:44] [Server thread/INFO]: Player437 joined the game
+[15:54:46] [Server thread/INFO]: Saving and pausing game...
+[15:54:46] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[15:54:46] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[15:54:46] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[15:54:46] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@479c9201[id=538c2a55-7afc-37c7-ab76-b8f0ee8467dd,name=Player437,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3190) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[15:54:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2497ms behind, skipping 49 tick(s)
+[15:55:02] [main/INFO]: Stopping!
+[15:55:02] [Server thread/INFO]: Stopping server
+[15:55:02] [Server thread/INFO]: Saving players
+[15:55:02] [Server thread/INFO]: Saving worlds
+[15:55:02] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[15:55:02] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[15:55:02] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[15:55:03] [main/INFO]: SoundSystem shutting down...
+[15:55:03] [main/WARN]: Author: Paul Lamb, www.paulscode.com
